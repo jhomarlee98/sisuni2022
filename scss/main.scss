@@ -1,0 +1,91 @@
+@import "bootstrap";
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+$uni: #661a1a;
+$sistemas: #2e569a;
+*{
+  font-family: sans-serif;
+}
+.text-uni{
+  color: $uni;
+ }
+.text-sistemas{
+  color: $sistemas;
+}
+.p-container{
+  padding: 0.6% 2.05%;
+}
+.w-35{
+  width: 35%;
+}
+.bg-sistemas{
+  background-color: $sistemas;
+}
+.w-75{
+  width: 75%;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.fw-300{
+  font-weight: 300;
+}
+
+.title-course{
+  font-size: large;
+  font-weight: bolder;
+}
+.titulo-area{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.info{
+  font-size: medium;
+  font-weight: bolder;
+  color: #e27c5c;
+}
+.fw-600{
+  font-weight: 550;
+}
+.bd-r{
+  border-right: 1px solid #626262;
+}
+.bd-b{
+  border-bottom: 1px solid #626262;
+}
+.fs-sm{
+  font-weight: bolder;
+  font-size: smaller;
+}
+.fs-xsm{
+  font-weight: bolder;
+  font-size: smaller;
+}
+.bg-diseno{
+  background-color: #bc4242;
+}
+.bg-programacion{
+  background-color: #426bbc;
+}
+.bg-ofimatica{
+  background-color: #e27c5c;
+}
+.bg-conectividad{
+  background-color: #695491;
+}
+.bg-bdatos{
+  background-color: #ffb204;
+}
+.bg-especalizacion{
+  background-color: #0f5132;
+}
+.bg-workshop{
+  background-color: #007c83;
+}
+.bg-cisco{
+  background-color: #586a48;
+}
+.bg-sistemasO{
+  background-color: #b6effb;
+}

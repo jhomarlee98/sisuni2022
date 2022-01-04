@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscripciones 2022</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-10 h-100">
+            <div class="header">
+                <h5 class="modal-title" id="exampleModalLabel">Formulario de registro</h5>
+            </div>
+            <p class="text-muted fs-sm px-3">Estos datos se usarán para ponernos en contacto con usted a la brevedad posible.</p>
+            <div class="body">
+                <form class="row g-3" method="post" action="red.php" target="_blank">
+                    <div class="col-md-6">
+                        <label for="txtname" class="form-label">Apellidos y nombres</label>
+                        <input type="name" class="form-control" id="txtname" name="txtname" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtdni" class="form-label">DNI:</label>
+                        <input type="number" class="form-control" required id="txtdni" name="txtdni" maxlength="8" >
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtmail" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="txtmail" name="txtmail" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtphone" class="form-label">Número de Celular:</label>
+                        <input type="phone" class="form-control" id="txtphone" name="txtphone" placeholder="999999999" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtcurname" class="form-label">Nombre del curso:</label>
+                        <input type="text" class="form-control" id="txtcurname" name="txtcurname" placeholder="Windows 10" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtcurfre" class="form-label">Dias:</label>
+                        <select class="form-select my-1 mr-sm-2" id="txtcurfre" name="txtcurfre" required>
+                            <option selected>Seleccione</option>
+                            <option value="1">Lunes, miercoles y viernes</option>
+                            <option value="2">Martes y jueves</option>
+                            <option value="3">Sábados</option>
+                            <option value="4">Domingos</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtcurhor" class="form-label">Horario:</label>
+                        <input type="text" class="form-control" id="txtcurhor" name="txtcurhor" placeholder="De 8 a 11 am" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="txtcurini" class="form-label">Fecha de inicio:</label>
+                        <input type="date" class="form-control" required id="txtcurini" name="txtcurini">
+                    </div>
+                    <div class="col-12 d-grid gap-2">
+                        <button type="submit" class="btn btn-success"> Enviar Datos</button>
+                        <!--<a href="mailto:sisuni.info@uni.edu.pe?subject=Matricula%20de%20curso&body=Nombre%3A%20Nombre%20Alumno%0D%0ACorreo%3A%20---%0D%0Anumero%3A%20---%0D%0ACurso%3A%20....%0D%0AHorario%3A%20...%0D%0AFecha%20Inicio%3A%20..%2F01%2F2022" type="submit" class="btn btn-success" target="_blank">Enviar </a>-->
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+</body>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>
